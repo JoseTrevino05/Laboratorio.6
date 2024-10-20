@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página 1</title>
+</head>
+
+<body>
+    <h1 class="bg-warning ">Mis videojuegos favoritos</h1>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="Página 1.html">Títulos favoritos</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="Pagina 2.html">Reseña personal</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="nav-link" href="Pagina 3.html">Títulos similares</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </nav>
+    <p class="descripcion"><b>Como me es demasiado dificil rankear los videojuegos, voy a mencionar 3 de los mejores que he
+            jugado sin ningun orden </b></p>
+    <ul>
+        <li class="listado"><b>Red Dead Redemption 2</b></li>
+        <button type="button" class="btn btn-danger sinopsis" onclick="toggleSinopsis()">Sinopsis</button>
+        <p id="sinopsis">Red Dead Redemption 2 es un videojuego de acción-aventura desarrollado por Rockstar Games. La
+            historia se
+            sitúa en el Salvaje Oeste estadounidense en 1899 y sigue a Arthur Morgan, un forajido y miembro de la banda
+            de Dutch Van der Linde.
+            Después de un robo fallido en la ciudad de Blackwater, Arthur y su banda deben huir mientras son perseguidos
+            por agentes federales y cazarrecompensas. A lo largo del juego, Arthur enfrenta desafíos tanto externos como
+            internos, lidiando con la lealtad a su banda y sus propios principios morales.
+            El juego ofrece un mundo abierto donde los jugadores pueden participar en diversas actividades como cazar,
+            pescar, montar a caballo y enfrentarse en tiroteos. Además, las decisiones del jugador afectan la
+            calificación de honor de Arthur, influyendo en cómo otros personajes reaccionan hacia él.</p>
+        <img class="juego1" src="Imagenes/juego1.jpg" alt="">
+
+        <li class="listado"><b>God of war Ragnarok</b></li>
+        <button type="button" class="btn btn-danger " onclick="toggleSinopsis1()">Sinopsis</button>
+        <p id="sinopsis1">God of War: Ragnarök es un videojuego de acción y aventura desarrollado por Santa Monica
+            Studio
+            y publicado por Sony Interactive Entertainment. Es la secuela directa de God of War (2018) y sigue las
+            aventuras de Kratos y su hijo Atreus.
+            En esta entrega, Kratos y Atreus deben viajar a través de los Nueve Reinos en busca de respuestas mientras
+            se preparan para el Ragnarök, la batalla profetizada que podría significar el fin del mundo. Durante su
+            viaje, se enfrentarán a diversos enemigos, incluidos dioses nórdicos y criaturas míticas, mientras intentan
+            detener el avance del Fimbulvetr, el invierno que precede al Ragnarök.
+            La historia explora temas de paternidad, destino y la lucha interna de Kratos con su pasado violento,
+            mientras Atreus busca entender su propia identidad y su lugar en el mundo.</p>
+        <img class="juego2" src="Imagenes/juego2.jpg"
+            alt="">
+
+        <li class="listado"><b>Silent Hill 2</b></li>
+        <button type="button" class="btn btn-danger " onclick="toggleSinopsis2()">Sinopsis</button>
+        <p id="sinopsis2">Silent Hill 2 es un videojuego de terror psicológico desarrollado por Team Silent y publicado
+            por Konami. La historia sigue a James Sunderland, quien recibe una carta de su difunta esposa, Mary,
+            invitándolo a encontrarse con ella en el misterioso pueblo de Silent Hill, a pesar de que ella ha estado
+            muerta por varios años.
+            Al llegar a Silent Hill, James se encuentra con una serie de personajes extraños y perturbadores, incluyendo
+            a una mujer llamada María, que se parece sorprendentemente a su esposa fallecida. A medida que avanza en su
+            búsqueda, James debe enfrentar sus propios demonios internos y descubrir la verdad detrás de la carta y los
+            oscuros secretos del pueblo.
+            El juego es conocido por su atmósfera inquietante, su narrativa profunda y sus temas de culpa, pérdida y
+            redención.</p>
+        <img class="juego3" src="Imagenes/juego3.jpg"
+            alt="">
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        function toggleSinopsis() {
+            var sinopsis = document.getElementById("sinopsis");
+            if (sinopsis.style.display === "none") {
+                sinopsis.style.display = "block";
+            } else {
+                sinopsis.style.display = "none";
+            }
+        }
+
+        function toggleSinopsis1() {
+            var sinopsis1 = document.getElementById("sinopsis1");
+            if (sinopsis1.style.display === "none") {
+                sinopsis1.style.display = "block";
+            } else {
+                sinopsis1.style.display = "none";
+            }
+        }
+
+        function toggleSinopsis2() {
+            var sinopsis2 = document.getElementById("sinopsis2");
+            if (sinopsis2.style.display === "none") {
+                sinopsis2.style.display = "block";
+            } else {
+                sinopsis2.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

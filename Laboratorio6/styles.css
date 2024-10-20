@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+}
+
+body{background-color: rgb(202, 149, 3);}
+
+.Inicio{
+    font-size: x-large;
+}
+
+.imagen1{
+    width: 22%;
+    margin-left: 4%;
+}
+
+.imagen2{
+    width: 30%;
+}
+
+.imagen3{
+    width: 33%;
+}
+
+.descripcion{
+    margin-left: 2%;
+    font-size: x-large;
+}
+
+.listado{
+    font-size: large;
+    margin-top: 2%;
+    
+}
+
+.imagen{
+    width: 10%;
+    height: 25%;
+}
+.juego1{
+    width: 25%;
+    height: 20%;
+    padding-inline-end: 13%;
+}
+
+.juego2{
+    width: 25%;
+}
+
+.juego3{
+    width: 12%;
+}
+
+.game1{
+    width: 18%;
+}
+
+.game2{
+    width: 18%;
+}
+
+.game3{
+    width: 18%;
+}
+
+p{
+    margin-right: 2%;
+}
+
+.titulos{
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+.similares{
+    font-size: xx-large;
+}
+
+.ajustes{
+    font-size: x-large;
+    margin-right: 45%;
+}
+
+#carrusel{
+    width: 30%;
+    margin-left: 10%;
+}
+
+li{
+    margin-left: 2%;
+}
+
+#carrusel2{
+    width: 26%;
+    margin-left: 10%;
+}
+
+#carrusel3{
+    width: 26%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
