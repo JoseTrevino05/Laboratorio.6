@@ -2,7 +2,9 @@ h1{
     text-align: center;
 }
 
-body{background-color: aliceblue;}
+body{
+    background-color: lightgoldenrodyellow;
+}
 
 .Inicio{
     font-size: x-large;
